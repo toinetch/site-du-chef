@@ -215,7 +215,7 @@
         #coin2{
             display: flex;
             justify-content: space-between;
-            margin-top: 15px;
+            margin-top: 105px;
 
             div{
                 margin-top: 20px;
@@ -256,4 +256,121 @@
             border-bottom: solid 1px lightgray;
         }
     }
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 180vh;
+    background-image: url(../../public/images/main_bg.jpg);
+
+    .cadre{
+        background-color: white;
+        margin: auto;
+        width: 80%;
+        height: 173vh;
+    }
+
+    #coin1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 60px;
+    }
+
+    h1{
+        font-family: 'Courgette', cursive;
+        font-size: 60px;
+        margin-top: -90px;
+    }
+
+    .red{
+        color: red;
+    }
+
+    #coin2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    .encadre{
+        margin: auto;
+        height: 600px;
+        width: 60%;
+        background: url(../../public/images/book_table_bg.jpg);
+        border-radius: 5%;
+
+        .text{
+            margin-bottom: 30px;
+        }
+
+        .form-control{
+            margin-bottom: 20px;
+            border-radius: 5%;
+            height: 40px;
+        }
+
+        .call{
+            text-align: center;
+            padding: 50px 0;
+            color: white;
+        }
+
+        .bouton{
+            color: white;
+            background-color: red;
+            border-radius: 30px;
+            height: 50px;
+            width: 150px;
+            margin-top: 50px;
+            margin-left: 370px;
+        }
+    }
+
+    .red{
+        color: red;
+    }
+
+    .blog{
+        margin-top: 50px;
+        margin-left: 650px;
+    }
+
+    .ligne{
+        margin-left: 540px;
+    }
+
+    .insta{
+        padding-top: 100px;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            height: 300px;
+            width: 500px;
+            border: solid 5px lightgray;
+            border-radius: 30px;
+        }
+    }
+
+    .bouton{
+        color: white;
+        background-color: red;
+        border-radius: 30px;
+        height: 50px;
+        width: 150px;
+        margin-top: 50px;
+        margin-left: 700px;
+    }
+}
+
+.section4{
+    height: 400px;
+    background-color: black;
+
+
 }
