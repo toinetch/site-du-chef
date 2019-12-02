@@ -126,7 +126,7 @@
         background-color: white;
         margin: auto;
         width: 80%;
-        height: 170vh;
+        height: 180vh;
 
         #coin1{
             display: flex;
@@ -215,7 +215,7 @@
         #coin2{
             display: flex;
             justify-content: space-between;
-            margin-top: 10px;
+            margin-top: 15px;
 
             div{
                 margin-top: 20px;
@@ -227,4 +227,33 @@
 .section2{
     height: 800px;
     background-color: black;
+    text-align: center;
+    color: white;
+    
+
+    h1{
+        padding-top: 80px;
+        font-size: 60px;
+        font-family: 'Courgette', cursive;
+    }
+
+    .red{
+        color: red;
+    }
+
+    img{
+        margin-top: -40px;
+    }
+
+    .display{
+        width: 80%;
+        margin-left: 170px;
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            border-bottom: solid 1px lightgray;
+        }
+    }
 }

@@ -10904,7 +10904,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: white;
   margin: auto;
   width: 80%;
-  height: 170vh;
+  height: 180vh;
 }
 
 .section1 .cadre #coin1 {
@@ -11005,7 +11005,7 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .section1 .cadre #coin2 div {
@@ -11015,5 +11015,36 @@ a.text-dark:hover, a.text-dark:focus {
 .section2 {
   height: 800px;
   background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.section2 h1 {
+  padding-top: 80px;
+  font-size: 60px;
+  font-family: 'Courgette', cursive;
+}
+
+.section2 .red {
+  color: red;
+}
+
+.section2 img {
+  margin-top: -40px;
+}
+
+.section2 .display {
+  width: 80%;
+  margin-left: 170px;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section2 .display img {
+  border-bottom: solid 1px lightgray;
 }
 /*# sourceMappingURL=style.css.map */
