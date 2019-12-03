@@ -11113,10 +11113,12 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 30px;
 }
 
-.section3 .encadre .form-control {
+.section3 .encadre .control {
+  width: 100%;
   margin-bottom: 20px;
-  border-radius: 5%;
-  height: 40px;
+  border-radius: 15px;
+  height: 50px;
+  padding-left: 15px;
 }
 
 .section3 .encadre .call {
@@ -11218,7 +11220,7 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 20px;
   font-size: 25px;
   color: white;
-  margin-left: 850px;
+  margin-left: 860px;
   margin-top: -70px;
   position: relative;
 }
